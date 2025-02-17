@@ -10,3 +10,5 @@ if __name__ == '__main__':
     print(next(infinite)) # 0
     print(next(infinite)) # 1
 
+    for num in infinite:
+        print(num)
